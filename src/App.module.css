@@ -1,0 +1,24 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.image {
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 770px) {
+    .container {
+        margin: 7% 10%;
+    }
+    .image {
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.datePickerContainer {
+    width: 20%;
+    padding: 1% 2%;
+    margin: 1% 0;
+}
+
+@media only screen and (max-width: 770px) {
+    .datePickerContainer {
+        width: 98vw !important;
+        margin: 4% 0;
+    }
+}

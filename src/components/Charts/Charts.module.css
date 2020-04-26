@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: 100%;
+    padding: 2% !important;
+}
+
+@media only screen and (max-width: 770px) {
+    .container {
+        width: 98vw !important;
+        height: 100% !important;
+    }
+}

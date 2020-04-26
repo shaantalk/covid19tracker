@@ -1,0 +1,14 @@
+.table {
+    width: '100%',
+}
+
+.tableContainer {
+    width: 60vw !important;
+    margin-bottom: 3% !important;
+}
+
+@media only screen and (max-width: 770px) {
+    .tableContainer {
+        width: 98vw !important;
+    }
+}
